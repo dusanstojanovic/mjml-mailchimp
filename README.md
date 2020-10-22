@@ -1,5 +1,5 @@
 # mjml-mailchimp
 
-yarn install
-yarn build
-yarn build:watch
+1. yarn install
+2. yarn build
+3. yarn build:watch
