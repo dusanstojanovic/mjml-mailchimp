@@ -1,0 +1,15 @@
+{
+  "name": "mjml-mailchimp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mjml index.mjml -o index.html",
+    "build:watch": "mjml -w index.mjml -o index.html"
+  },
+  "dependencies": {
+    "mjml": "^4.7.1",
+    "mjml-cli": "^4.7.1",
+    "mjml-mailchimp": "^0.0.5"
+  }
+}

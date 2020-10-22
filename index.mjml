@@ -1,0 +1,185 @@
+<mjml>
+
+    <mj-head>
+        <mj-title>Nanny Louenna</mj-title>
+        <mj-font name="Oxygen" href="https://fonts.googleapis.com/css2?family=Oxygen" />
+        <mj-font name="Josefin" href="https://fonts.googleapis.com/css2?family=Josefin+Sans" />
+        <mj-style inline="inline">
+            .link { color: #00DDD3; font-weight: bold; text-decoration: none }
+            .link-dark { color: #808382; text-decoration: none }
+            .link-orange { color: #fe8a71; text-decoration: none }
+        </mj-style>
+        <mj-attributes>
+            <mc-text align="left" font-size="12px" color="#384349" padding="0px" font-family="'Oxygen', sans-serif" />
+
+            <mc-section background-color="#ffffff" padding="0px" />
+            <mj-column padding="0px 20px" />
+            <mj-button padding="12px 20px" font-size="16px" border-radius="50rem" background-color="#00DDD3" color="#ffffff" font-family="'Oxygen', sans-serif" text-transform="uppercase" />
+
+            <mj-class name="h1" font-size="24px" line-height="normal" font-weight="700" font-family="'Josefin Sans', sans-serif" padding-bottom="18px" />
+            <mj-class name="h2" font-size="18px" line-height="normal" font-weight="600" font-family="'Josefin Sans', sans-serif" padding-bottom="14px" />
+            <mj-class name="p" font-size="12px" font-weight="400" line-height="1.5" font-family="'Oxygen', sans-serif" padding-bottom="12px" />
+            <mj-class name="small" font-size="10px" color="#808382" line-height="1.5" font-family="'Oxygen', sans-serif" align="center" />
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#f7f7f7">
+        <!--move from top-->
+        <mc-section background-color="#f7f7f7" padding="16px"></mc-section>
+        <!--move from top-->
+
+        <!--header-->
+        <mc-section background-color="#f7f7f7" padding="0">
+            <mj-column background-color="#00DDD3" padding="20px" border-radius="30px 30px 0px 0px">
+                <mc-image width="127px" href="https://nannylouenna.com" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/5a4cda6a-ea9a-41df-a993-47535772a62f.png"></mc-image>
+            </mj-column>
+        </mc-section>
+        <!--header-->
+
+        <mc-section background-color="#00DDD3">
+            <mj-column background-color="#fff" padding="16px" border-radius="30px 30px 0px 0px"></mj-column>
+        </mc-section>
+
+        <mc-section>
+            <mj-column padding-top="16px" padding-bottom="16px">
+                <mc-text mc:edit="main_title" mj-class="h1">Hello everyone, welcome to my newsletter!</mc-text>
+                <mc-text mc:edit="main_title" mj-class="h2">Hello everyone, welcome to my newsletter!</mc-text>
+                <mc-text mc:edit="main_text" mj-class="p" font-size="14px">Firstly, thank you for subscribing to Nanny Louenna, its been an incredibly exciting few months since the launch of the Nanny Louenna app. It’s been amazing to see so many media articles, and I have even been invited onto several radio talkshows … it’s quite nerve racking knowing you are live!
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <mc-section background-color="#fe8a71">
+            <mj-column padding="0" width="100%">
+                <mc-image mc:edit="featured_img" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/3632b322-e73e-4fe9-b545-6e51ef0301e5.jpg" alt="Nanny Louenna" padding="20px 20px 24px" />
+            </mj-column>
+            <mj-column width="100%" padding-bottom="12px">
+                <mc-text mc:edit="featured_title" mj-class="h2" color="#fff">New App Content</mc-text>
+                <mc-text mc:edit="featured_text" mj-class="p" color="#fff" >
+                    I am adding content and new chapters constantly to the app. The Instagram q&a’s that I do regularly are so helpful for me as well as you, as if someone asks me a question which isn't answered on the app, I add it immediately.
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <mc-section background-color="#f1f1f1" padding="12px 20px">
+            <mj-social mode="horizontal" icon-size="24px">
+                <mj-social-element name="twitter-noshare" href="#" />
+                <mj-social-element name="facebook-noshare" href="#" />
+                <mj-social-element name="instagram-noshare" href="#" />
+                <mj-social-element name="linkedin-noshare" href="#" />
+            </mj-social>
+        </mc-section>
+
+        <mc-section background-color="#ffffff">
+            <mj-column>
+                <mj-button href="###">
+                    Don't click me!
+                </mj-button>
+            </mj-column>
+        </mc-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-carousel>
+                <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/11/ecommerce-guide.jpg" />
+                <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/3@1x.png" />
+                <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/1@1x.png" />
+                </mj-carousel>
+            </mj-column>
+        </mj-section>
+
+        <mc-section>
+            <mj-column width="100%">
+                <mc-text mc:edit="recipe_title" mj-class="h1" color="#00ddd3" padding-top="36px" padding-bottom="8px" align="center">Recipe of the month</mc-text>
+                <mc-text mc:edit="recipe_subtitle" font-size="16px" font-weight="bold" align="center">
+                    Parmesan chicken
+                </mc-text>
+            </mj-column>
+            <mj-column padding="0" width="100%">
+                <mc-image mc:edit="recipe_img_1" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/5eb21365-162e-4d2c-9a83-28ecb626e116.jpg" href="https://nannylouenna.com" alt="Nanny Louenna" padding="20px" />
+                <mc-image mc:edit="recipe_img_2" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/5eb21365-162e-4d2c-9a83-28ecb626e116.jpg" href="https://nannylouenna.com" alt="Nanny Louenna" padding="0px 20px 20px 20px" />
+            </mj-column>
+        </mc-section>
+
+        <mc-section background-color="#ebe9e9" padding="10px">
+            <mj-column padding="10px" width="50%">
+                <mc-image mc:edit="products_img_main" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/988df454-0584-4f7e-b6bc-10a099000152.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+            <mj-column padding="10px" width="50%">
+                <mc-text mc:edit="products_title" mj-class="h1" padding-top="16px">
+                    Product Discounts
+                </mc-text>
+                <mc-text mc:edit="products_text" mj-class="p">
+                    Im really delighted that several companies I support and love have offered my subscribers discounts on their products, so make the most of those on the app!
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <mc-section background-color="#ebe9e9" padding="0px 10px 10px 10px">
+            <mj-column padding="10px" width="25%">
+                <mc-image mc:edit="products_img_1"  src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/988df454-0584-4f7e-b6bc-10a099000152.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+            <mj-column padding="10px" width="25%">
+                <mc-image mc:edit="products_img_2"  src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/988df454-0584-4f7e-b6bc-10a099000152.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+            <mj-column padding="10px" width="25%">
+                <mc-image mc:edit="products_img_3"  src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/988df454-0584-4f7e-b6bc-10a099000152.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+            <mj-column padding="10px" width="25%">
+                <mc-image mc:edit="products_img_4" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/988df454-0584-4f7e-b6bc-10a099000152.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+        </mc-section>
+
+        <mc-section>
+            <mj-column width="100%">
+                <mc-text mc:edit="activity_title" mj-class="h1" color="#00ddd3" padding-top="36px" padding-bottom="8px" align="center">Activity of the month</mc-text>
+                <mc-text mc:edit="activity_subtitle" font-size="16px" font-weight="bold" align="center">
+                    Mud pies!
+                </mc-text>
+            </mj-column>
+            <mj-column width="100%" padding="20px">
+                <mc-image mc:edit="activity_img" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/82e00fe7-4956-436d-baa2-74a34593cb76.jpg" alt="Product Discounts" padding="0" />
+            </mj-column>
+        </mc-section>
+
+        <mc-section background-color="#00d9d2">
+            <mj-column padding="0" width="100%">
+                <mc-image mc:edit="vouchers_img" src="https://mcusercontent.com/84fed317da72d854eb1ccfe0a/images/6d2483ae-91f2-42e1-b6ba-4530374a7fa3.jpg" alt="Nanny Louenna" padding="20px 20px 24px" />
+            </mj-column>
+            <mj-column width="100%" padding-bottom="20px">
+                <mc-text mc:edit="vouchers_title" mj-class="h1" color="#fff">Vouchers</mc-text>
+                <mc-text mc:edit="vouchers_text" mj-class="p" color="#fff">
+                    Surprise a friend with this unique gift to help guide them through the first year of parenthood!
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <mc-section>
+            <mj-column padding-top="30px">
+                <mc-text mc:edit="bespoke_title" mj-class="h1">Bespoke</mc-text>
+                <mc-text mc:edit="bespoke_text" mj-class="p">
+                    I hope that the app has the answer to all of your questions, but sometimes I know it's great to have some one on one personalised support.
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <mc-section>
+            <mj-column>
+                <mj-divider padding="12px 0px 24px" border-width="1px" border-color="#D9D9D9" />
+            </mj-column>
+        </mc-section>
+
+        <mc-section>
+            <mj-column padding-bottom="24px">
+                <mc-text mc:edit="footer_text" mj-class="small">
+                If you do not wish to receive further communications like this, please <a href="*|UNSUB|*" class="link">click here</a> to unsubscribe.<br> &copy; 2020 Nanny Louenna. All rights reserved
+                </mc-text>
+            </mj-column>
+        </mc-section>
+
+        <!--move from bottom-->
+        <mc-section background-color="#f7f7f7" padding="16px"></mc-section>
+        <!--move from bottom-->
+
+    </mj-body>
+</mjml>
