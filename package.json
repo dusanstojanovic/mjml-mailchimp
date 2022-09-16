@@ -8,8 +8,8 @@
     "build:watch": "mjml -w index.mjml -o index.html"
   },
   "dependencies": {
-    "mjml": "^4.7.1",
-    "mjml-cli": "^4.7.1",
-    "mjml-mailchimp": "^0.0.5"
+    "mjml": "^4.13.0",
+    "mjml-cli": "^4.13.0",
+    "mjml-mailchimp": "^0.0.7"
   }
 }
