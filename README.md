@@ -4,6 +4,6 @@ Umesto mj-section -> mc-section<br/>
 Umesto mj-image -> mc-image<br/>
 Umesto mj-text -> mc-text
 
-1. yarn install
-2. yarn build
-3. yarn build:watch
+1. npm install
+2. npm run build
+3. npm run build:watch
